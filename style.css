@@ -1,0 +1,14 @@
+h1:active {
+   text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style: italic;
+   font-variant: small-caps;
+   text-rendering: geometricPrecision;
+   cursor: pointer;
+}
+
+h1:hover{
+    color: deeppink;
+    font-size: 45px;
+    text-transform: capitalize;
+}

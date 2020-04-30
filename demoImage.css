@@ -1,0 +1,23 @@
+.container{
+   background-size: cover;
+    position: relative;
+}
+
+
+.centered{
+     position: absolute;
+     text-align: center;
+     color: maroon;
+     top: 50%;
+     transform: translate(-50%, -50%);
+     left: 50%;
+}
+
+.bootom-right{
+    color: red;
+    font-weight: bold;
+    text-shadow: seashell;
+    top: 80%;
+    left: 90%;
+    position: absolute;
+}

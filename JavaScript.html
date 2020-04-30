@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+       
+        
+        <script>
+
+            const car = {name:'skoda',type:'sedan',engine:'petrol'}
+            const vehicle = {speed:230}
+             Object.assign(car,vehicle)
+            console.log("ASSIGN..."+JSON.stringify(car));
+
+
+             var colors =["Banana", "Orange", "Apple", "Mango"]
+             var id = colors.entries();
+            for(x of id)
+            {
+                document.write(x)
+            }
+
+
+function check(numbers)
+{
+    alert(numbers)
+   return numbers>1
+}
+
+            var myNumbers = [2,4,6,8,10,17]
+             var result = myNumbers.every(check)
+             document.write("============="+result);
+             //   ECMP 6 METHODS   ==>copyWithin
+        </script>
+    </body>
+</html>
